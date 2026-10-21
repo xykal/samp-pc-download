@@ -6,9 +6,10 @@ yang sudah **ditanam di dalam APK**, lalu mengekstrak RAR-nya **di HP**.
 
 ## Unduh
 
-**Terbaru: [v1.2.0](../../releases/download/v1.2.0/samp-pc-v1.2.0-merged-debug.apk)** (546 MB)
+**[v1.3.0](../../releases/download/v1.3.0/samp-pc-v1.3.0-merged.apk)** — 501 MB (R8, paling ringan)
+[v1.2.0](../../releases/download/v1.2.0/samp-pc-v1.2.0-merged-debug.apk) — 572 MB (debug, cadangan)
 
-- arm64-v8a, Android 9+, debug-signed
+- arm64-v8a (satu-satunya ABI yang didukung engine), Android 9+, debug-signed
 - Tanpa langkah PC, tanpa tempel link
 
 ## Cara pakai
@@ -22,9 +23,9 @@ yang sudah **ditanam di dalam APK**, lalu mengekstrak RAR-nya **di HP**.
 
 | File | Ukuran | Keterangan |
 |---|---|---|
-| `samp-pc-v1.2.0-merged-debug.apk` | 546 MB | install ini |
+| `samp-pc-v1.3.0-merged.apk` | 501 MB | R8, install ini |
+| `samp-pc-v1.2.0-merged-debug.apk` | 572 MB | cadangan (tanpa R8) |
 | `samp-client.zip` | 24 MB | client SA-MP (diunduh otomatis oleh app) |
-| `samp-pc-v1.1.0-frontend-debug.apk` | 78 KB | UI saja, buat ngetes tampilan |
 
 ## Catatan
 
