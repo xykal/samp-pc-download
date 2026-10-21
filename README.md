@@ -6,9 +6,9 @@ yang sudah **ditanam di dalam APK**, lalu mengekstrak RAR-nya **di HP**.
 
 ## Unduh
 
-**[v1.5.0 — XversSamp](../../releases/download/v1.5.0/xverssamp-v1.5.0-merged.apk)** — 501 MB (terbaru: nama + ikon baru)
-[v1.4.0](../../releases/download/v1.4.0/samp-pc-v1.4.0-merged.apk) — 501 MB (UI sendiri, progress bar, anti force-close)
-[v1.3.0](../../releases/download/v1.3.0/samp-pc-v1.3.0-merged.apk) — 501 MB (R8)
+**[v1.6.0 — XversSamp](../../releases/download/v1.6.0/xverssamp-v1.6.0-merged.apk)** — 501 MB (terbaru)
+[v1.5.0](../../releases/download/v1.5.0/xverssamp-v1.5.0-merged.apk) — 501 MB
+[v1.4.0](../../releases/download/v1.4.0/samp-pc-v1.4.0-merged.apk) — 501 MB
 
 - **arm64-v8a** (satu-satunya ABI yang didukung engine), Android 9+ (minSdk 28), debug-signed
 - Tanpa langkah PC, tanpa tempel link
@@ -17,25 +17,33 @@ yang sudah **ditanam di dalam APK**, lalu mengekstrak RAR-nya **di HP**.
 
 1. Install APK.
 2. Buka **XversSamp** → pilih penyimpanan (SD/internal) → pilih tier.
-3. **Unduh paket** (680 MB, sekali saja) — progress bar ada di dalam app, boleh ditinggal.
+3. **Unduh paket** (712 MB, sekali saja) — progress bar ada di dalam app, boleh ditinggal.
+   Kalau koneksi putus, app lanjut sendiri (resume, sampai 6x percobaan).
 4. **Jalankan SA-MP**.
+
+## Kalau unduhan gagal
+
+Buka **Diagnostik (kalau gagal)** di app:
+
+- lihat baris `TES KE SERVER` — HTTP code, tipe, ukuran, waktu;
+- tekan **Salin** lalu kirim isinya (berisi versi app, ABI, HP, ruang bebas, URL, log terakhir).
+
+Kalau pesannya soal kuota Drive, pakai **Ganti link paket** dan tempel link salinanmu sendiri.
 
 ## Isi rilis
 
 | File | Ukuran | Keterangan |
 |---|---|---|
-| `xverssamp-v1.5.0-merged.apk` | 501 MB | install ini |
-| `samp-pc-v1.4.0-merged.apk` | 501 MB | sebelumnya |
-| `samp-pc-v1.3.0-merged.apk` | 501 MB | R8 |
+| `xverssamp-v1.6.0-merged.apk` | 501 MB | install ini |
+| `xverssamp-v1.5.0-merged.apk` | 501 MB | sebelumnya |
 | `samp-client.zip` | 24 MB | client SA-MP (diunduh otomatis oleh app) |
 
 ## Catatan
 
 - Helio G36 / RAM 2–3 GB: main di 640×360 tier SAFETY, realistis 5–12 fps.
 - Butuh ruang kosong ±3 GB saat instalasi (RAR sementara + hasil ekstrak).
-- **Perangkat harus ARM64** untuk menjalankan engine. Di emulator x86 (MEmu dsb.) APK bisa ke-install
-  kalau image-nya punya ARM translation, tapi performa/kompatibilitas engine tidak dijamin.
+- **ARM64** diperlukan untuk menjalankan engine (emulator x86 butuh ARM translation, hasil tidak dijamin).
 - armeabi-v7a (32-bit) butuh engine terpisah (Wine 32-bit + Box86) — belum dikerjakan.
 
 ---
-sha256 v1.5.0: `255aea2bb9d7a5de58a9413ed326dff696ba11d82c8696c9ac545a1007d7dbec`
+sha256 v1.6.0: `65945de3c27f62f17b2119f69369bacbd4f920ce5a709d68f64e93388a79eee2`
